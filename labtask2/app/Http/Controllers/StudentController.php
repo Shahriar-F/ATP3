@@ -36,7 +36,8 @@ class StudentController extends Controller
                         'id' => 'required',
                         'dob' => 'required',
                         'phone' => 'required|min:11',
-                        'email' => 'email'
+                        'email' => 'email',
+                        'password' => 'required'
                     ],
                     [
                         'name.required'=>'Enter Your Name'
