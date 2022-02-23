@@ -11,7 +11,7 @@ class PagesController extends Controller
     }
 
     public function product(){
-        $names=array("Product A","Product B","Product C");
+        $names=array("Product 1","Product 2");
         return view('product')->with('names',$names);
     }
 
