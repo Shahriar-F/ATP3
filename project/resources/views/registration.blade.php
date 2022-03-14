@@ -9,7 +9,7 @@
     <div class = "container bg-light ">
     <br><br>
      <h1>Registration</h1>
-    <form action= "{{route('registration')}}" class "form-group" method = "post">
+    <form action= "{{route('registration')}}" class= "form-group" method = "post">
         {{csrf_field()}}
         <div class ="col-md-4 form-group">
             <span>Name</span>
